@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lecture 4: More HTML</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="lecture1.html">Lecture 1</a></li>
+            <li><a href="lecture2.html">Lecture 2</a></li>
+            <li><a href="lecture3.html">Lecture 3</a></li>
+            <li><a href="lecture4.html">Lecture 4</a></li>
+            <li><a href="lab1.html">Lab 1</a></li>
+        </ul>
+    </nav>
+    <article>
+        <header>
+            <h1>Lecture 4</h1>
+        </header>
+        <p><b>Lecture 4</b> talked about HTML tables & forms.</p>
+        <figure>
+            <img src="img/lecture4_table.png" alt="HTML Table Diagram" title="HTML Table Layout">
+            <figcaption>Source: Slide 8, Chapter 4 PowerPoint</figcaption>
+        </figure>
+        <p>Here's an example of what a HTML table looks like:</p>
+        <table>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+            <tr>
+                <td>Row 1</td>
+                <td>Row 2</td>
+                <td>Row 3</td>
+            </tr>
+        </table>
+        <br>
+
+        <!--
+            Now we will talk about HTML forms
+        -->
+        <p>Here's an example of what an HTML form looks like:</p>
+        <form>
+            <label for="uname">Username:</label>
+            <input type="text" id="uname" name="username"><br><br>
+            <label for="pword">Password:</label>
+            <input type="text" id="pword" name="password"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>It's not hooked up to anything, but you can see that your input gets appended to the URI.</p>
+    </article>
+
+    <footer>
+        <p>
+            Created By: Erica Miller<br>
+            CIS 2336 Spring 2023
+        </p>
+    </footer>
+</body>
+
+</html>
